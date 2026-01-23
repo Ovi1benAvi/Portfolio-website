@@ -311,6 +311,7 @@
 #minyan {
   padding-left: 1rem;
   padding-right: 1rem;
+  overflow: hidden;
 }
 
 @media (min-width: 769px) {
@@ -1247,6 +1248,8 @@
             max-width: 900px;
             margin: 0 auto;
             padding: 100px 40px 80px;
+            overflow: hidden;
+            box-sizing: border-box;
         }
         .minyan-hero {
             background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
@@ -1291,6 +1294,9 @@
         }
         .minyan-section {
             margin-bottom: 60px;
+            width: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
         }
         .minyan-section-label {
             display: block;
@@ -1350,6 +1356,8 @@
             background: #f5f5f7;
             border-radius: 16px;
             padding: 24px;
+            width: 100%;
+            box-sizing: border-box;
         }
         .minyan-box h4 {
             font-size: 17px;
@@ -1446,6 +1454,9 @@
             border-radius: 24px;
             padding: 48px;
             margin: 60px 0;
+            width: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
         }
         .minyan-reflection h3 {
             font-size: 28px;
@@ -1462,6 +1473,8 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 24px;
             margin-top: 24px;
+            width: 100%;
+            box-sizing: border-box;
         }
         .minyan-reflection-item h4 {
             font-size: 16px;
