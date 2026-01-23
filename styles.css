@@ -878,8 +878,8 @@
             }
             
             .nav-links {
-                gap: 20px;
-                flex-wrap: wrap;
+                gap: 12px;
+                flex-wrap: nowrap;
                 justify-content: center;
             }
             
