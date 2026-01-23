@@ -11,11 +11,17 @@
         <div class="nav-container">
             <div class="logo" onclick="showPage('home')"><span class="logo-box"><span class="box-top"></span><span class="box-right"></span><span class="logo-l">L</span><span class="logo-m">M</span></span></div>
             <ul class="nav-links">
-                <li><a onclick="showPage('home')" id="nav-home">Work</a></li>
-                <li><a onclick="showPage('about')" id="nav-about">About</a></li>
-                <li><a onclick="showPage('contact')" id="nav-contact">Contact</a></li>
-                <li><a onclick="showPage('cv')" id="nav-cv">CV</a></li>
-            </ul>
+    <li class="dropdown">
+        <a onclick="showPage('home')" id="nav-home">Work <span class="dropdown-arrow">▼</span></a>
+        <ul class="dropdown-menu">
+            <li><a onclick="showPage('smartcart')">SmartCart</a></li>
+            <li><a onclick="showPage('minyan')">Minyan</a></li>
+        </ul>
+    </li>
+    <li><a onclick="showPage('about')" id="nav-about">About</a></li>
+    <li><a onclick="showPage('contact')" id="nav-contact">Contact</a></li>
+    <li><a onclick="showPage('cv')" id="nav-cv">CV</a></li>
+</ul>
         </div>
     </nav>
 
