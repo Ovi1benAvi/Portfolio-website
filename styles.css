@@ -421,8 +421,11 @@
         }
 
         .cs-section {
-            margin-bottom: 100px;
-        }
+  margin-bottom: 4rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
         .cs-section-label {
             font-size: 12px;
@@ -814,6 +817,18 @@
             font-size: 14px;
             margin-bottom: 8px;
         }
+
+        #minyan .cs-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cs-section img,
+.cs-section picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
         /* Page visibility */
         .page {
